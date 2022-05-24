@@ -1,0 +1,40 @@
+{
+  "name": "liquid-comments",
+  "displayName": "Liquid Comments",
+  "description": "When you use VSCode's <insert comment> shortcut, liquid files will use Liquid comments instead of HTML comments.",
+  "repository": "https://github.com/Christopher-Hayes/liquid-comments.git",
+  "version": "0.1.0",
+  "publisher": "chris-hayes",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "keywords": [
+    "liquid",
+    "shopify",
+    "language",
+    "formatting"
+  ],
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "liquid",
+        "configuration": "./src/language/liquid.configuration.json",
+        "aliases": [
+          "Liquid"
+        ],
+        "configuration": "./language-configuration.json"
+      },
+      {
+        "id": "html",
+        "extensions": [
+          ".liquid"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
+
