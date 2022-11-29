@@ -11,7 +11,7 @@
 
 .liquid
 ```liquid
-{% comment %} {% if product.tags contains 'new' %}  {% endcomment %}
+{%- comment -%} {% if product.tags contains 'new' %}  {%- endcomment -%}
 ```
 
 ### Why?
